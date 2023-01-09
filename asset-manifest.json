@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4043871.css",
+    "main.js": "/static/js/main.ef1cbbdb.js",
+    "static/media/SectionOneImg.svg": "/static/media/SectionOneImg.fd2252dbe55c6699c041dda8966a98ad.svg",
+    "static/media/Apple iPhone 14 Pro Max Front.jpg": "/static/media/Apple iPhone 14 Pro Max Front.b37f55278e5e717fef90.jpg",
+    "static/media/logo.svg": "/static/media/logo.ecd537795c03ef13d827d6b45060edc2.svg",
+    "index.html": "/index.html",
+    "static/media/good.svg": "/static/media/good.39c59958678cea8668b673c84c4d5074.svg",
+    "main.f4043871.css.map": "/static/css/main.f4043871.css.map",
+    "main.ef1cbbdb.js.map": "/static/js/main.ef1cbbdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4043871.css",
+    "static/js/main.ef1cbbdb.js"
+  ]
+}
