@@ -1,0 +1,45 @@
+.section {
+  background: #d1d1d4;
+  padding: 30px 0px;
+  position: relative;
+  height: 100vh;
+}
+
+.sectionBlock {
+  animation: 3s show ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 77px;
+  color: #490e84;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.iphoneImg {
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.iphoneButton {
+  background: #490e84;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  padding: 12px 65px;
+}
+
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+

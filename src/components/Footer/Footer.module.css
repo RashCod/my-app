@@ -1,0 +1,89 @@
+.footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+  
+}
+
+
+
+.footerBlock{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 30px;
+    
+    
+}
+
+.politics {
+
+    align-self: center;
+
+}
+
+.politics a{
+    color: aliceblue;
+    text-align: center;
+}
+
+.logo{
+    cursor: pointer;
+
+}
+
+
+
+
+.numberBlock svg{
+    width: 35px;
+    fill: aliceblue;
+    animation: call 1.2s ease;
+    animation-iteration-count: 6;
+    animation: call 1.2s ease infinite;
+  
+  }
+  
+  .wht{
+    margin-left: 20px;
+  
+  }
+  
+  
+  
+  .phone{
+    margin-left: 20px;
+  
+  
+  }
+  
+  
+  
+  
+  @keyframes call {
+      0% {
+          transform: translateY(5px) rotate(0);
+      }
+  
+      10% {
+          transform: translateY(5px) rotate(30deg);
+      }
+  
+      20% {
+          transform: translateY(5px) rotate(-20deg);
+      }
+  
+      30% {
+          transform: translateY(5px) rotate(10deg);
+      }
+  
+      40% {
+          transform: translateY(5px) rotate(-5deg);
+      }
+  
+      50% {
+          transform: translateY(5px) rotate(0);
+      }
+  }

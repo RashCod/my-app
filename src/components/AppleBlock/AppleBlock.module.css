@@ -1,0 +1,155 @@
+.section {
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 150px;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #717171;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.appleBlock {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  animation: 3s show ease;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.productWrap {
+  width: 300px;
+  margin: 0 auto;
+  background: white;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 19px;
+  font-family: Lora;
+  /* text-transform: uppercase; */
+}
+.productItem {
+  position: relative;
+  overflow: hidden;
+}
+
+.productWrap {
+  display: block;
+  width: 100%;
+}
+.productButtons {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.button {
+  text-decoration: none;
+  color: #c0a97a;
+  font-size: 12px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 2px solid #c0a97a;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.3s ease-in-out;
+}
+.button:before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+.productItem:hover .productButtons {
+  opacity: 1;
+}
+.productItem:hover .button {
+  transform: translate(-50%, -50%) scale(1);
+}
+.button:hover {
+  background: black;
+}
+.productTitle {
+  color: #5e5e5e;
+}
+.productTitle a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.productTitle a:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #2e2e2e;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 0;
+  transition: 0.3s ease-in-out;
+}
+.productTitle a:hover {
+  color: #c0a97a;
+}
+.productTitle:hover a:after {
+  background: #c0a97a;
+}
+.productPrice {
+  font-size: 20px;
+  color: #c0a97a;
+  font-weight: 700;
+}
+
+
+
+.basketBlock{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+
+.basket{
+  position: relative;
+  width: 100%;
+}
+
+.basketSpan{
+position: absolute;
+display: block;
+border-radius: 100%;
+left: 11px;
+top:25px ;
+text-align: center;
+font-size: 20px;
+padding: 2px 7px;
+color: aliceblue;
+background-color: darkslateblue;
+
+}

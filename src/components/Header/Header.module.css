@@ -1,0 +1,116 @@
+.header {
+  width: 100%;
+  border: 3px solid;
+  background-color: black;
+  height: 80px;
+  display: flex;
+}
+
+.menuBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.menu {
+}
+
+.menuUl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.menuList {
+  margin-right: 45px;
+  font-size: 16px;
+}
+
+.menuLink {
+  color: #717171;
+}
+
+.iconBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon{
+  position: relative;
+  display: block;
+  cursor: pointer;
+
+}
+
+
+
+
+.numberBlock {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.numberBlock a {
+  color: #717171;
+  font-size: 24px;
+line-height: 29px;
+}
+
+
+.numberBlock svg{
+  width: 35px;
+  fill: aliceblue;
+  animation: call 1.2s ease;
+  animation-iteration-count: 6;
+  animation: call 1.2s ease infinite;
+
+}
+
+.wht{
+  margin-left: 20px;
+
+}
+
+
+
+.phone{
+  margin-left: 20px;
+
+
+}
+
+
+
+
+@keyframes call {
+	0% {
+		transform: translateY(5px) rotate(0);
+	}
+
+	10% {
+		transform: translateY(5px) rotate(30deg);
+	}
+
+	20% {
+		transform: translateY(5px) rotate(-20deg);
+	}
+
+	30% {
+		transform: translateY(5px) rotate(10deg);
+	}
+
+	40% {
+		transform: translateY(5px) rotate(-5deg);
+	}
+
+	50% {
+		transform: translateY(5px) rotate(0);
+	}
+}
