@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4043871.css",
-    "main.js": "/static/js/main.ef1cbbdb.js",
-    "static/media/SectionOneImg.svg": "/static/media/SectionOneImg.fd2252dbe55c6699c041dda8966a98ad.svg",
-    "static/media/Apple iPhone 14 Pro Max Front.jpg": "/static/media/Apple iPhone 14 Pro Max Front.b37f55278e5e717fef90.jpg",
-    "static/media/logo.svg": "/static/media/logo.ecd537795c03ef13d827d6b45060edc2.svg",
-    "index.html": "/index.html",
-    "static/media/good.svg": "/static/media/good.39c59958678cea8668b673c84c4d5074.svg",
-    "main.f4043871.css.map": "/static/css/main.f4043871.css.map",
-    "main.ef1cbbdb.js.map": "/static/js/main.ef1cbbdb.js.map"
+    "main.css": "/my-app/static/css/main.34519eef.css",
+    "main.js": "/my-app/static/js/main.c3487f35.js",
+    "static/media/SectionOneImg.svg": "/my-app/static/media/SectionOneImg.fd2252dbe55c6699c041dda8966a98ad.svg",
+    "static/media/Apple iPhone 14 Pro Max Front.jpg": "/my-app/static/media/Apple iPhone 14 Pro Max Front.b37f55278e5e717fef90.jpg",
+    "static/media/iphone1.jpg": "/my-app/static/media/iphone1.6586bbbd52da66472e11.jpg",
+    "static/media/iphone3.jpg": "/my-app/static/media/iphone3.e07c60c912dbd4888a53.jpg",
+    "static/media/iphone2.webp": "/my-app/static/media/iphone2.3590a526a64ff9220c87.webp",
+    "static/media/empty.png": "/my-app/static/media/empty.70f6a78ea5d49e7bb89e.png",
+    "static/media/logo.svg": "/my-app/static/media/logo.ecd537795c03ef13d827d6b45060edc2.svg",
+    "index.html": "/my-app/index.html",
+    "static/media/good.svg": "/my-app/static/media/good.39c59958678cea8668b673c84c4d5074.svg",
+    "main.34519eef.css.map": "/my-app/static/css/main.34519eef.css.map",
+    "main.c3487f35.js.map": "/my-app/static/js/main.c3487f35.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4043871.css",
-    "static/js/main.ef1cbbdb.js"
+    "static/css/main.34519eef.css",
+    "static/js/main.c3487f35.js"
   ]
 }
