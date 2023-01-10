@@ -43,9 +43,12 @@
     animation: call 1.2s ease;
     animation-iteration-count: 6;
     animation: call 1.2s ease infinite;
-  
   }
   
+  .numberBlock svg:hover{
+    fill: blue;
+  }
+
   .wht{
     margin-left: 20px;
   

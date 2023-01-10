@@ -14,7 +14,7 @@ export const Cart = () => {
 
     return (
     <div className={s.cartBlock}>
-     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     {/* <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -46,7 +46,7 @@ export const Cart = () => {
       </div>
     </div>
   </div>
-</div>
+</div> */}
       <div className={s.cartBlockCenter}>
         <div className={s.cartBody}>
           <div className={s.h2}>Sopping Apple</div>
@@ -59,9 +59,9 @@ export const Cart = () => {
             Назад
           </Link>
           <div className={s.sum}>{totalPrice} ₽</div>
-          <div  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap" id="modal" className={s.order && s.orderAnimated}>
+          <Link to="/modal"  className={s.order && s.orderAnimated}>
             Заказать
-          </div>
+          </Link>
           {/* <a href="mailto:mail@htmlacademy.ru">Напишите нам</a> */}
 
         </div>

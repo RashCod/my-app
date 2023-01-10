@@ -6,8 +6,11 @@ import { SectionOne } from "./components/SectionOne/SectionOne";
 import { Route, Routes } from "react-router-dom";
 import { Cart } from "./components/Cart/Cart";
 import { Modal } from "./components/Cart/Modal";
+import { useSelector } from "react-redux";
+import { Empty } from "./components/Cart/Empty/Empty";
 
 function App() {
+  const totalPrice = useSelector((state) => state.cartSlice.totalPrice)
   return (
     <div className="App">
       <Header />
@@ -15,8 +18,8 @@ function App() {
       <Routes>
       <Route path="/*" element={  <SectionOne />} />       
       <Route path="/catalog" element={<AppleBlock />} />       
-       <Route path="/cart" element={<Cart />} />
-       {/* <Route path="/modal" element={<Modal/>}/> */}
+       <Route path="/cart" element={totalPrice === 0 ? <Empty/> :<Cart />} />
+       <Route path="/modal" element={<Modal/>}/>
       </Routes>
       <Footer />
     </div>
